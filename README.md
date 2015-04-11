@@ -29,5 +29,5 @@ ObjFun      - value of objective function ( MaxIter x 1)
 ```
 
 * Implemented by Pradeep Reddy Raamana. 
-** Comments and bug reports are welcome. 
-** No warranty whatsoever, implied or otherwise.
+ * Comments and bug reports are welcome. 
+ * No warranty whatsoever, implied or otherwise.
