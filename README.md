@@ -2,8 +2,10 @@
 
 Implementation of Robust Fuzzy C-means algorithm as presented in Dzung Pham "Spatial Models for Fuzzy Clustering", CVIU, 2001. 
 
->
+
 **INPUTS**:
+
+```
 *data*        - NumSamples X NumFeaturesPerSample
 *NumClusters* - number of clusters to make
 *ImgDim*      - 2x1 or 3x1 vector specifying the dimensions of the image
@@ -24,7 +26,8 @@ Implementation of Robust Fuzzy C-means algorithm as presented in Dzung Pham "Spa
 centers     - centers of the different clusters ( NumClusters x 1)
 U           - membership functions ( NumClusters x NumSamples )
 ObjFun      - value of objective function ( MaxIter x 1)
+```
 
-Implemented by Pradeep Reddy Raamana. 
-- Comments and bug reports are welcome. 
-- No warranty whatsoever, implied or otherwise.
+* Implemented by Pradeep Reddy Raamana. 
+* Comments and bug reports are welcome. 
+* No warranty whatsoever, implied or otherwise.
