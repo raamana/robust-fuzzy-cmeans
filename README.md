@@ -2,6 +2,8 @@
 
 Implementation of Robust Fuzzy C-means algorithm as presented in Dzung Pham "Spatial Models for Fuzzy Clustering", CVIU, 2001. 
 
+Please read the info below to learn more about inputs and outputs, and refer to the [exampleUsage_ToyData.m](exampleUsage_ToyData.m) script to play with some toy data. 
+
 ```
 INPUTS:
 
