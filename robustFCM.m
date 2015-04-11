@@ -2,7 +2,7 @@ function [ centers, U, ObjFun, seg ] = robustFCM(data, ImgDim, NumClusters, opt,
 %{
  Robust Fuzzy C-means clustering
    as presented in Dzung Pham "Spatial Models for Fuzzy Clustering", CVIU, 2001
-    
+
 data        - NumSamples X NumFeaturesPerSample
 NumClusters - number of clusters to make
 ImgDim      - 2x1 or 3x1 vector specifying the dimensions of the image
@@ -14,6 +14,10 @@ options     - a structure containing the following optional fields
     options.MaxIter - max. number of iterations     (Default: 100)
     options.tol     - tolerance/threshold for min improvement per iteration (Default: 1e-5)
     options.verbose - logical variable, whether to display the info per each iteration (Default: 1)
+
+Implemented by Pradeep Reddy Raamana. 
+- Comments and bug reports are welcome. 
+- No warranty whatsoever, implied or otherwise.
 
 %}
 

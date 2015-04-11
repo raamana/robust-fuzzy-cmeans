@@ -1,6 +1,8 @@
 function NbrHood = getNeighborhoodVolumetricSlow(jj,ImgDim,TypeOfNbrhood)
 % slower version with for loops and if conditions
 
+assert( ismember(numel(ImgDim), [2 3]), 'Only 2D or 3D neighbourhood queries are allowed at the moment.');
+
 if numel(ImgDim) == 2 && strcmpi(TypeOfNbrhood,'4nbr')
     % subscripts into image
     [ s1 s2 ] = ind2sub(ImgDim,jj);

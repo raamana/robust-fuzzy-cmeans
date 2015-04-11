@@ -1,6 +1,8 @@
 
 function nbrhood = computeNeighbourhood(data,ImgDim,TypeOfNbrhood)
 
+assert(ismember(TypeOfNbrhood,{'4nbr','6nbr'}), 'Invalid choice. Must be ''4nbr'' or ''6nbr''.');
+
 if strcmpi(TypeOfNbrhood,'4nbr')
     numnbrs = 4;
 elseif strcmpi(TypeOfNbrhood,'6nbr')
